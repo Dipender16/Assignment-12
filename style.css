@@ -1,0 +1,800 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background: #636c79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35vw;
+    padding: 30px 0px 30px 0px;
+}
+#threeDot{
+    display: none;
+    color: white;
+}
+header img{
+    width: 140px;
+    margin-left: 60px;
+}
+header div{
+    display: flex;
+    gap: 120px;
+}
+header ul{
+    align-items: center;
+    gap: 50px;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+    color: white;
+}
+header button{
+    background: #636c79;
+    border: 1px solid rgb(160, 160, 160);
+    color: white;
+    padding: 10px 40px 10px 40px;
+}
+
+/* section1 */
+#section1{
+    background: #636c79;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+#groupImg{
+    background: url(img/group);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 550px;
+}
+#section1 h1{
+    font-size: 4rem;
+    color: white;
+    font-weight: 600;
+}
+#section1Pera{
+    color: white;
+    margin-top: 30px;
+    font-weight: 100;
+}
+
+.mail {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+#lead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 10px;
+    background: white;
+}
+#lead p{
+    display: flex;
+    color: rgb(102, 102, 102);
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 10px 40px 10px 40px;
+    background: #8bb7a2;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+}
+#btn2{
+    margin-left: 80px;
+
+}
+#lead span{
+    color: black;
+    margin-right: 10px;
+}
+
+/* section2 */
+#section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#section2 h2{
+    text-align: center;
+    font-size: 3rem;
+    margin: 100px 0px 50px 0px;
+    font-family: 'Raleway', sans-serif;
+}
+#section2Cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 50px;
+}
+#section2Cards h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+#section2Cards p{
+    color: rgb(97, 97, 97);
+}
+#section2Cards div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#section2Img{
+    background: url(img/group2);
+    width: 1300px;
+    background-size: cover;
+    height: 700px;
+}
+.circleContainer{
+    position: absolute;
+    margin-top: 420px;
+    border: 1px solid rgba(255, 255, 255, 0.62);
+    padding: 30px;
+    border-radius: 50%;
+}
+.circle{
+    padding: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+#circleBg{
+    display: flex;
+    align-items: center;
+}
+
+#circleBg span{
+    color: #8bb7a2;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' -25,
+  'opsz' 48
+}
+
+/* section3 */
+
+#section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section3 h2{
+    text-align: center;
+    font-size: 3rem;
+    margin: 100px 0px 50px 0px;
+    font-family: 'Raleway', sans-serif;
+}
+#section3Img{
+    background: url(img/model1);
+    background-size: cover;
+    background-position: right;
+    height: 500px;
+    width: 500px;
+}
+#section3Content{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+#section3Content h3{
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+#section3Content p{
+    margin: 50px 0px 50px 0px;
+    color: rgb(59, 59, 59);
+}
+#btn3{
+    margin-left: 0px;
+}
+
+/* section4 */
+
+#section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+#section4Img{
+    background: url(img/model2);
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+    width: 500px;
+}
+#section4Content{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+#section4Content h3{
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+#section4Content p{
+    margin: 50px 0px 50px 0px;
+    color: rgb(59, 59, 59);
+}
+#btn4{
+    margin-left: 0px;
+}
+
+/* sectoin5 */
+
+#section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+#section5Img{
+    background: url(img/model3);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 500px;
+}
+#section5Content{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+#section5Content h3{
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+#section5Content p{
+    margin: 50px 0px 50px 0px;
+    color: rgb(59, 59, 59);
+}
+#btn5{
+    margin-left: 0px;
+}
+
+/* section6 */
+#section6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section6Top{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    gap: 350px;
+}
+#section6Top h3{
+    font-size: 2rem;
+}
+#section6Cards{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 0px;
+    margin: 40px 0px;
+}
+.cardImg1{
+    background: url(img/model4);
+    background-position: top;
+    background-size: cover;
+    height: 350px;
+    width: 280px;
+}
+.cardImg2{
+    background: url(img/model5);
+    background-position: top;
+    background-size: cover;
+    height: 350px;
+    width: 280px;
+}
+.cardImg3{
+    background: url(img/model6);
+    background-position: top;
+    background-size: cover;
+    height: 350px;
+    width: 280px;
+}
+.section6CardContainer h4{
+    margin: 15px 0px;
+    font-size: 1.2rem;
+}
+.section6CardContainer p{
+    font-size: 0.9rem;
+}
+
+/* footer  */
+
+footer{
+    background: #10181d;
+    margin-top: 100px;
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footerTop{
+    display: flex;
+    justify-content: center;
+    gap: 800px;
+    align-items: center;
+}
+#footLogo{
+    width: 100px;
+}
+#social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+hr{
+    margin: 50px 0px;
+    width: 1100px;
+    height: 1px;
+    background-color: rgb(118, 118, 118);
+    border: none;
+}
+#social img{
+    width: 15px;
+}
+#social div{
+    width: 15px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li{
+    list-style: none;
+    color: rgb(164, 164, 164);
+    margin: 10px 0px;
+    font-size: 0.8rem;
+}
+.active{
+    font-size: 1rem;
+    color: white;
+}
+#footBottom{
+    display: flex;
+    gap: 100px;
+}
+/* responsive */
+@media (max-width:1670px) {
+    header{
+        gap: 25vw;
+    }
+}
+
+@media (max-width:1450px) {
+    header{
+        gap: 15vw;
+    }
+    header div{
+        display: flex;
+        gap: 80px;
+    }
+    header ul{
+        gap: 30px;
+    }
+    #section1{
+        gap: 100px;
+    }
+    #groupImg{
+        height: 500px;
+        width: 350px;
+    }
+    #section1 h1{
+        font-size: 3rem;
+    }
+    #section2Img{
+        width: 900px;
+        height: 500px;
+    }
+    #section2Cards{
+        gap: 100px;
+    }
+    #section3Img{
+        height: 350px;
+        width: 350px;
+    }
+    #section3Content{
+        gap: 100px;
+    }
+    #section3Content h3{
+        font-size: 2rem;
+    }
+    #section3 h2{
+        font-size: 2.5rem;
+    }
+    
+    #section4Img{
+        height: 350px;
+        width: 350px;
+    }
+    #section4Content{
+        gap: 100px;
+    }
+    #section4Content h3{
+        font-size: 2rem;
+    }
+    #section4 h2{
+        font-size: 2.5rem;
+    }
+    
+    #section5Img{
+        height: 350px;
+        width: 350px;
+    }
+    #section5Content{
+        gap: 100px;
+    }
+    #section5Content h3{
+        font-size: 2rem;
+    }
+    #section5 h2{
+        font-size: 2.5rem;
+    }
+    
+}
+@media (max-width:1150px) {
+    header{
+        gap: 22vw;
+    }
+    header ul{
+        display: none;
+    }
+    #threeDot{
+        display: block;
+    }
+    #section1{
+        gap: 50px;
+    }
+    #lead button{
+        margin-left: 40px;
+    }
+    #lead p{
+        font-size: 0.8rem;
+    }
+    #section1Pera{
+        font-size: 0.8rem;
+    }
+    #section6Top{
+        gap: 200px;
+    }
+    #footerTop{
+        gap: 600px;
+    }
+    #footBottom{
+        gap: 60px;
+    }
+    hr{
+        width: 900px;
+    }
+}
+
+@media (max-width:920px) {
+    #section1{
+        flex-direction: column;
+        padding: 0px 0px 20px 0px;
+    }
+    #groupImg{
+        height: 500px;
+        width: 700px;
+    }
+    #section1 h1{
+        text-align: center;
+    }
+    #section1Pera{
+        text-align: center;
+        margin: 50px 0px 50px 0px;
+    }
+    #section2Img{
+        width: 600px;
+        height: 350px;
+    }
+    #section2Cards{
+        gap: 50px;
+    }
+    #section2Cards h3{
+        font-size: 2rem;
+    }
+    #section2Cards p{
+        font-size: 0.8rem;
+    }
+    #section2 h2{
+        font-size: 2rem;
+    }
+    #section3Content{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    #section3Content div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #section3Img{
+        height: 500px;
+        width: 500px;
+    }
+    #section3Content p{
+        text-align: center;
+        margin: 20px 0px 20px 0px;
+    }
+    #section3Content h3{
+        text-align: center;
+    }
+
+    #section4Content{
+        flex-direction: column;
+        gap: 50px;
+    }
+    #section4Content div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #section4Img{
+        height: 500px;
+        width: 500px;
+    }
+    #section4Content p{
+        text-align: center;
+        margin: 20px 0px 20px 0px;
+    }
+    #section4Content h3{
+        text-align: center;
+    }
+    #section5Content{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    #section5Content div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #section5Img{
+        height: 500px;
+        width: 500px;
+    }
+    #section5Content p{
+        text-align: center;
+        margin: 20px 0px 20px 0px;
+    }
+    #section5Content h3{
+        text-align: center;
+    }
+    #section6Top{
+        gap: 80px;
+    }
+    #section6Top p{
+        font-size: 0.8rem;
+    }
+    .footList{
+        display: none;
+    }
+    #footerTop{
+        gap: 400px;
+    }
+    .active{
+        font-size: 0.8rem;
+    }
+    hr{
+        width: 700px;
+    }
+}
+@media (max-width:740px) {
+    header{
+        gap: 13vw;
+    }
+    header img{
+        margin-left: 50px;
+        width: 100px;
+    }
+    header button{
+        font-size: 0.7rem;
+        padding: 5px 20px 5px 20px;
+    }
+    #section1{
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+    #groupImg{
+        height: 300px;
+        width: 500px;
+    }
+    #section1Pera{
+        margin: 20px 0px 20px 0px;
+    }
+    #section2Img{
+        width: 500px;
+        height: 250px;
+    }
+    .circleContainer{
+        padding: 20px;
+        margin-top: 300px;
+    }
+    .circle{
+        padding: 20px;
+    }
+    #section2Cards{
+        gap: 25px;
+    }
+    #section2Cards h3{
+        font-size: 1.5rem;
+    }
+    #section2 h2{
+        font-size: 1.5rem;
+        margin-top: 50px;
+    }
+    #section2Cards p{
+        font-size: 0.8rem;
+    }
+    #section6Top{
+        flex-direction: column;
+        gap: 20px;
+    }
+    #section6Top p{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .section6CardContainer h4{
+        text-align: center;
+    }
+    .section6CardContainer p{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    hr{
+        width: 70vw;
+        margin: 20px 0px;
+    }
+    #footBottom{
+        flex-direction: column;
+        gap: 5px;
+    }
+    #footerTop{
+        gap: 200px;
+    }
+    .active{
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+@media (max-width:550px) {
+    header{
+        gap: 8vw;
+    }
+    #groupImg{
+        height: 200px;
+        width: 350px;
+    }
+    #section1{
+        gap: 20px;
+        padding: 0px 0px 20px 0px;
+    }
+    #lead{
+        gap: 10px;
+    }
+    #lead button{
+        margin-left: 0px;
+        font-size: 0.7rem;
+        padding: 5px 15px 5px 15px;
+    }
+    #section1 h1{
+        font-size: 2rem;
+    }
+    #section1Pera{
+        font-size: 0.7rem;
+    }
+    #section2Img{
+        width: 350px;
+        height: 250px;
+    }
+    .circleContainer{
+        padding: 10px;
+    }
+    .circle{
+        padding: 10px;
+    }
+    #circleBg span{
+        padding: 5px;
+    }
+    #section2Cards{
+        gap: 25px;
+    }
+    #section3 h2{
+        font-size: 2rem;
+        margin: 80px 0px 25px 0px;
+    }
+    #section3Img{
+        height: 350px;
+        width: 350px;
+    }
+    #section3Content p{
+        font-size: 0.8rem;
+    }
+    #section3Content h3{
+        font-size: 1.5rem;
+    }
+
+    
+    #section4 h2{
+        font-size: 2rem;
+        margin: 80px 0px 25px 0px;
+    }
+    #section4Img{
+        height: 350px;
+        width: 350px;
+    }
+    #section4Content p{
+        font-size: 0.8rem;
+    }
+    #section4Content h3{
+        font-size: 1.5rem;
+    }
+    #section5 h2{
+        font-size: 2rem;
+        margin: 80px 0px 25px 0px;
+    }
+    #section5Img{
+        height: 350px;
+        width: 350px;
+    }
+    #section5Content p{
+        font-size: 0.8rem;
+    }
+    #section5Content h3{
+        font-size: 1.5rem;
+    }
+
+
+    #btn1{
+        margin-left: 30px;
+    }
+    #btn3{
+        font-size: 1rem;
+        padding: 5px 15px 5px 15px;
+    }
+    #btn4{
+        font-size: 1rem;
+        padding: 5px 15px 5px 15px;
+    }
+    #btn5{
+        font-size: 1rem;
+        padding: 5px 15px 5px 15px;
+    }
+    #footerTop{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
